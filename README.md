@@ -31,26 +31,21 @@ Siga os passos abaixo para configurar o ambiente e executar o FINFAST na sua má
 1. Requisitos Prévios
 Certifique-se de ter o Python instalado e o Ollama rodando em sua máquina.
 
-Download Ollama
+Baixe o Ollama: https://ollama.com/ 
 
 No terminal, baixe o modelo necessário:
+`ollama run llama3`
 
-Bash
-ollama run llama3
 2. Clonar o Repositório
-Bash
-git clone https://github.com/fred-maciel/dio-lab-bia-do-futuro.git
-cd dio-lab-bia-do-futuro
-3. Instalar Dependências
-Recomenda-se o uso de um ambiente virtual (venv), mas você pode instalar as bibliotecas diretamente:
+`git clone https://github.com/fred-maciel/dio-lab-bia-do-futuro.git`
+`cd dio-lab-bia-do-futuro`
 
-Bash
-pip install streamlit pandas requests
+4. Instalar Dependências
+Recomenda-se o uso de um ambiente virtual (venv), mas você pode instalar as bibliotecas diretamente:
+`pip install streamlit pandas requests`
 4. Executar a Aplicação
 Com o Ollama aberto em segundo plano, execute o comando:
-
-Bash
-streamlit run src/app.py
+`streamlit run src/app.py`
 Após o comando, o Streamlit abrirá automaticamente uma aba no seu navegador (geralmente em http://localhost:8501) com a interface do FINFAST.
 
 💡 Principais Funcionalidades Demonstradas
