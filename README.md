@@ -20,10 +20,12 @@ O **FINFAST** é um assistente financeiro proativo desenvolvido para o desafio d
 ## 🚀 Como Executar o Projeto
 
 1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/fred-maciel/dio-lab-bia-do-futuro.git](https://github.com/fred-maciel/dio-lab-bia-do-futuro.git)
+   Bash
+   `git clone https://github.com/fred-maciel/dio-lab-bia-do-futuro.git
+   cd dio-lab-bia-do-futuro'`
+   
+🚀 Instruções para Rodar o Projeto
 
-   nstruções para Rodar o Projeto
 Siga os passos abaixo para configurar o ambiente e executar o FINFAST na sua máquina local:
 
 1. Requisitos Prévios
